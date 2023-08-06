@@ -99,33 +99,38 @@
             checkBox1.ForeColor = Color.RoyalBlue;
             checkBox1.Location = new Point(12, 240);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(274, 39);
+            checkBox1.Size = new Size(169, 39);
             checkBox1.TabIndex = 4;
-            checkBox1.Text = "十以内加法 每题5分";
+            checkBox1.Text = "十以内加法";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // checkBox2
             // 
             checkBox2.AutoSize = true;
+            checkBox2.Checked = true;
+            checkBox2.CheckState = CheckState.Checked;
             checkBox2.Font = new Font("Microsoft YaHei UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             checkBox2.ForeColor = Color.RoyalBlue;
             checkBox2.Location = new Point(12, 290);
             checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(301, 39);
+            checkBox2.Size = new Size(196, 39);
             checkBox2.TabIndex = 5;
-            checkBox2.Text = "十五以内加法 每题8分";
+            checkBox2.Text = "十五以内加法";
             checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
             checkBox3.AutoSize = true;
+            checkBox3.Checked = true;
+            checkBox3.CheckState = CheckState.Checked;
             checkBox3.Font = new Font("Microsoft YaHei UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             checkBox3.ForeColor = Color.RoyalBlue;
             checkBox3.Location = new Point(12, 340);
             checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(290, 39);
+            checkBox3.Size = new Size(169, 39);
             checkBox3.TabIndex = 6;
-            checkBox3.Text = "五以内乘法 每题10分";
+            checkBox3.Text = "五以内乘法";
             checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox4
@@ -135,9 +140,9 @@
             checkBox4.ForeColor = Color.RoyalBlue;
             checkBox4.Location = new Point(12, 390);
             checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(290, 39);
+            checkBox4.Size = new Size(169, 39);
             checkBox4.TabIndex = 7;
-            checkBox4.Text = "十以内乘法 每题15分";
+            checkBox4.Text = "十以内乘法";
             checkBox4.UseVisualStyleBackColor = true;
             // 
             // label3
