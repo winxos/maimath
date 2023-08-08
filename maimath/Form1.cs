@@ -66,7 +66,7 @@ namespace maimath
             {
                 funs.Add(prob4);
             }
-            if(funs.Count == 0)
+            if (funs.Count == 0)
             {
                 funs.Add(prob1);
             }
@@ -166,6 +166,7 @@ namespace maimath
                     {
                         timer1.Enabled = false;
                         save_score();
+                        Application.Exit();
                     }
                 }
                 update_view();
@@ -219,6 +220,12 @@ namespace maimath
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            timer1.Enabled = false;
+            save_score();
         }
     }
 }

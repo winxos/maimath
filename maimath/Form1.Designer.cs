@@ -122,8 +122,6 @@
             // checkBox3
             // 
             checkBox3.AutoSize = true;
-            checkBox3.Checked = true;
-            checkBox3.CheckState = CheckState.Checked;
             checkBox3.Font = new Font("Microsoft YaHei UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             checkBox3.ForeColor = Color.RoyalBlue;
             checkBox3.Location = new Point(12, 340);
@@ -233,6 +231,7 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Name = "Form1";
+            FormClosed += Form1_FormClosed;
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
